@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 
+Project-1 styling 
+*/
+  body {
+	height: 100%;
+	width: 100%;
+	padding: 1rem;
+	font-family: 'Trebuchet MS';
+	display: flex;
+	flex-flow: column;
+	justify-content: center; 
+	align-items: center;
+  }
+  main{
+	display: flex;
+  flex-flow: column;
+  justify-content: center; 
+  align-items: center;
+  gap: 1rem;
+  width: 19rem;
+  height:auto;
+  border: 4px dashed black;
+  padding: 1rem;
+  background-color: hsl(24.7, 100%, 96.67%);
+  }
+  h1{
+	font-size: 1rem;
+	text-align: center;
+	border: 2px dashed orange;
+  }
+  h2{
+	font-size: 0.8rem;
+	text-align: center;
+	border: 2px dashed orange;
+  }
+  fieldset{
+	border: 2px dashed orange;
+  }
+  legend{
+	font-size: 0.9rem;
+	font-weight: bolder;
+  }
+  label{
+	font-size: 0.8rem;
+	font-weight: bolder;
+  }
+  aside{
+	color: red;
+	font-size: 0.8rem;
+  }
+  button{
+	padding: 0.3rem;
+	font-weight: bolder;
+  }
