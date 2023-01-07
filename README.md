@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/traez/goated-oop-project-with-javascript](https://github.com/traez/goated-oop-project-with-javascript)
-- Live Site URL: [https://traez.github.io/goated-oop-project-with-javascript/](https://traez.github.io/goated-oop-project-with-javascript/)
+- Solution URL: [https://github.com/traez/fetch-api-gender-determiner-project](https://github.com/traez/fetch-api-gender-determiner-project)
+- Live Site URL: [https://traez.github.io/fetch-api-gender-determiner-project/](https://traez.github.io/fetch-api-gender-determiner-project/)
 
 ## My process
 
