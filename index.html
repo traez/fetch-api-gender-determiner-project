@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Trae's Fetch API Gender-Determiner Project</title>
+<meta charSet="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-traedays.png">
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<!-- 
+<button onclick="alert('Hello World 1')">Click Me now 1</button>
+-->
+<body>
+
+  <main>
+
+    <h1>Trae's Fetch API Gender-Determiner Project</h1>
+    
+    <h2>State the name of the person whose gender you'd want to find out, then click on button to reveal answer</h2>
+
+    <fieldset class="input-field">
+      <legend>Individual's name</legend>
+      <div>
+        <label>Person's name:</label>
+        <input type="text" id="search-term" placeholder="Obi...">
+        <button type="button">Search</button>
+        <aside></aside>
+      </div>
+    </fieldset>
+  
+    <fieldset class="answers">
+      <legend>Gender Reveal</legend>
+      <div>
+        <label>Chosen name:</label>
+        <input type="text" id="chosen-name">
+      </div>
+      <div>
+        <label>Likely gender:</label>
+        <input type="text" id="likely-gender">
+      </div>
+      <div>
+        <label>Probability/Certainty of guessed gender:</label>
+        <input type="text" id="probability">
+      </div>
+      <div>
+        <label>Count of data rows examined to calculate response:</label>
+        <input type="text" id="count">
+      </div>
+    </fieldset>
+  
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
