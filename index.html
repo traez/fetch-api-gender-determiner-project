@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Trae's Fetch API Gender-Determiner Project</title>
+<title>Trae's Digital Clock and Countdown Timer Javascript Project</title>
 <meta charSet="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-traedays.png">
@@ -14,39 +14,81 @@
 
   <main>
 
-    <h1>Trae's Fetch API Gender-Determiner Project</h1>
+    <h1>Trae's Digital Clock and Countdown Timer Javascript Project</h1>
     
-    <h2>State the name of the person whose gender you'd want to find out, then click on button to reveal answer</h2>
+    <h2>You know what time it is now; no time to check time!</h2>
 
-    <fieldset class="input-field">
-      <legend>Individual's name</legend>
-      <div>
-        <label>Person's name:</label>
-        <input type="text" id="search-term" placeholder="Obi...">
-        <button type="button">Search</button>
-        <aside></aside>
-      </div>
-    </fieldset>
-  
-    <fieldset class="answers">
-      <legend>Gender Reveal</legend>
-      <div>
-        <label>Chosen name:</label>
-        <input type="text" id="chosen-name">
-      </div>
-      <div>
-        <label>Likely gender:</label>
-        <input type="text" id="likely-gender">
-      </div>
-      <div>
-        <label>Probability/Certainty of guessed gender:</label>
-        <input type="text" id="probability">
-      </div>
-      <div>
-        <label>Count of data rows examined to calculate response:</label>
-        <input type="text" id="count">
-      </div>
-    </fieldset>
+    <section>
+      <fieldset class="todays-date">
+        <legend id="todays-date">Today's date is:</legend>
+        <ul id="todays-date-list">
+          <input type="text" id="todays-date-weekday" placeholder="Weekday">
+          <input type="text" id="todays-date-day" placeholder="Day">
+          <input type="text" id="todays-date-month" placeholder="Month">
+          <input type="text" id="todays-date-year" placeholder="Year">
+        </ul>
+      </fieldset>
+
+      <fieldset class="current-time">
+        <legend id="current-time">Current time being:</legend>
+        <ul id="current-time-list">
+          <input type="text" id="current-time-hours" placeholder="Hours">
+          <input type="text" id="current-time-minutes" placeholder="Minutes">
+          <input type="text" id="current-time-seconds" placeholder="Seconds">
+          <input type="text" id="current-time-ampm" placeholder="AMPM">
+        </ul>
+      </fieldset>
+    </section>
+
+    <section>
+      <fieldset class="election">
+        <legend id="election">Nigeria's 2023 Presidential Election</legend>
+
+        <ul class="election-hold">
+          <label id="election-hold">Holds:</label>
+          <h4 id="election-hold-date">Saturday 25th February 2023</h4>
+        </ul>
+    
+        <nav class="vote">
+          <label id="vote">Time till we vote in Peter Obi</label>
+          <ul id="vote-time">
+            <input type="text" id="vote-time-days" placeholder="Days">
+            <input type="text" id="vote-time-hours" placeholder="Hours">
+            <input type="text" id="vote-time-minutes" placeholder="Minutes">
+            <input type="text" id="vote-time-seconds" placeholder="Seconds">
+          </ul>
+        </nav>
+
+      </fieldset>
+    </section>
+
+    <section>
+      <h3 id="countdown-timer">Countdown Timer</h3>
+
+      <fieldset class="input-appointment">
+        <legend id="input-appointment">Input Appointment date:</legend>
+        <ul id="input-appointment-list">
+          <input type="text" id="input-appointment-day" placeholder="28">
+          <input type="text" id="input-appointment-month" placeholder="12">
+          <input type="text" id="input-appointment-year" placeholder="2023">
+          <button type="button">Calculate</button> 
+        </ul>
+        <b></b>
+      </fieldset>
+
+      <fieldset class="appointment-time">
+        <legend id="appointment-time">Time until appointment:</legend>
+        <h5 id="appointment-units">Year-Months-Days-Hours-Minutes-Seconds</h5>
+        <ul id="appointment-time-list">
+          <input type="text" id="appointment-time-years" placeholder="Years">
+          <input type="text" id="appointment-time-months" placeholder="Months">
+          <input type="text" id="appointment-time-days" placeholder="Days">
+          <input type="text" id="appointment-time-hours" placeholder="Hours">
+          <input type="text" id="appointment-time-minutes" placeholder="Minutes">
+          <input type="text" id="appointment-time-seconds" placeholder="Seconds">
+        </ul>
+      </fieldset>
+    </section>
   
   </main>
   

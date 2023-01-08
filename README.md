@@ -1,6 +1,6 @@
-# Section.io - Fetch API Gender-Determiner Beginner Project
+# Section.io - Digital Clock and Countdown Timer JavaScript Project on JS Beginners
 
-This is a beginner project solution to get familiar with the use of Fetch API [This YouTube tutorial was most useful out of several](https://www.youtube.com/watch?v=AVmGmLFcukM). I am trying to improve my coding skills by building realistic projects. 
+This is a combined solution to the [Digital Clock](https://jsbeginners.com/javascript-digital-clock/) and [Countdown Timer JavaScript Project](https://jsbeginners.com/javascript-countdown-timer/). I am trying to improve my coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -8,22 +8,21 @@ This is a beginner project solution to get familiar with the use of Fetch API [T
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+  - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
 ### The challenge
 
-Users should be able to:
-
-- Type a name and then get data from the Genderize API to populates fields in the HTML page and confirm likely gender of chosen name.  
-- See error response if name input is not acceptable.  
+- The objective of this project is to code a JavaScript digital clock. This is a basic clock that displays the local time on your local computer.
+- As trivia, project also returns days left ti Nigeria's 2023 Presidential elections.
+- The project creates a JavaScript countdown timer. This timer takes a given day and returns the days, hours, minutes, and seconds until said day. 
 
 ### Screenshot
 
@@ -31,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/traez/fetch-api-gender-determiner-project](https://github.com/traez/fetch-api-gender-determiner-project)
-- Live Site URL: [https://traez.github.io/fetch-api-gender-determiner-project/](https://traez.github.io/fetch-api-gender-determiner-project/)
+- Solution URL: [https://github.com/traez/random-reasons-oop-javascript-project](https://github.com/traez/random-reasons-oop-javascript-project)
+- Live Site URL: [https://traez.github.io/random-reasons-oop-javascript-project/](https://traez.github.io/random-reasons-oop-javascript-project/)
 
 ## My process
 
@@ -42,15 +41,18 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- Vanilla JavaScript using Fetch API
+- Vanilla JavaScript
 
 ### What I learned
 
-Biggest takeaway from building this project was adopting "Separation of concerns" or "Single Responsibility Principle" part of the SOLID code writing principles. The codebase has 4 functions. Old me would have probably left everything in 1 function. Lols.  
+- This was my longest Javascript project by far. Almost 200 lines on VsCode! Admittedly it is a double intermediate project combined in one.  
+- Extensively getting familiar with Javascript date Object.  
+- More Single-Responsibility-Principle code architecture learnings.    
+- Yet came to respect ChatGPT the more. It has got me super productive!  
 
 ### Continued development
 
-Learn and build more API based projects.      
+More practice; continuously and consistently!     
 
 ### Useful resources
 
@@ -59,7 +61,7 @@ MDN Web Docs
 w3schools  
 YouTube  
 Google  
-ChatGPT OpenAI chatbot 
+ChatGPT OpenAI chatbot  
 
 ## Author
 
@@ -68,6 +70,4 @@ ChatGPT OpenAI chatbot
 
 ## Acknowledgments
 
-- The many written and video tutorials consumed to get comfortable with Fetch API, promises and Async-await.  
-- BigUps to ChatGPT, answered all my code enquiries efficiently and even advised on Javascript code commenting. 
- 
+To all those trying to solve harder problems for an easier life; respect!    

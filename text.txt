@@ -1,7 +1,9 @@
-hsl(131, 31%, 65%);
-hsl(24.7, 100%, 96.67%);
+date Sunday, 8 January, 2023
+Time 08 04:20 pm
 
-24.7°	100	96.67
+Presidential election voting starts
+Time until we vote Peter Obi
 
-background-color: #FFF5EE;
-background-color: hsl(24.7, 100%, 96.67%);
+Input Appointment date: day, month, year button
+Confirms day of week
+Time until appointment: years, month, days, hours, minutes, and seconds
